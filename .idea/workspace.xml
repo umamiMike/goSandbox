@@ -2,7 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c72a4523-5f8d-4ed3-8be3-c5f94d102e93" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hugo-site" afterPath="$PROJECT_DIR$/hugo-site" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hugo-site" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prettylogger" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/GOPATH__umamimike_.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Go_SDK.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/umamimike.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/go-um-timeline/timeline.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/goinfive/ep0/business_logic.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/goinfive/ep0/business_logic_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/goinfive/ep0/hashtable.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/goinfive/ep0/in_memory_hashtable.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/goinfive/ep02/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/goinfive/ep02/concurrent.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/goinfive/ep02/testconcurrent.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/goinfive/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timeline/lib/event.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timeline/lib/timeline.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timeline/main.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timeline/main_test.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmd/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmd/.idea/libraries/GOPATH__transposeMarkdown_.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmd/.idea/libraries/Go_SDK.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmd/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmd/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmd/.idea/transposeMarkdown.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmd/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tmd/main.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket1.go" />
     </list>
     <ignored path="umamimike.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -192,12 +225,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1470259726195</updated>
-      <workItem from="1470259727284" duration="2063000" />
+      <workItem from="1470259727284" duration="2192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2063000" />
+    <option name="totallyTimeSpent" value="2192000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="368" y="139" width="1440" height="823" extended-state="0" />
