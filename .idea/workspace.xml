@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c72a4523-5f8d-4ed3-8be3-c5f94d102e93" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Go_SDK.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hugo-site" afterPath="$PROJECT_DIR$/hugo-site" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/timeline" afterPath="$PROJECT_DIR$/timeline" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/umamimike.iml" afterPath="$PROJECT_DIR$/.idea/umamimike.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="umamimike.iws" />
@@ -210,12 +207,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1470259726195</updated>
-      <workItem from="1470259727284" duration="1171000" />
+      <workItem from="1470259727284" duration="1420000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1171000" />
+    <option name="totallyTimeSpent" value="1420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="368" y="139" width="1440" height="823" extended-state="0" />
