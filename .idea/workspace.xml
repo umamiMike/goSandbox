@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c72a4523-5f8d-4ed3-8be3-c5f94d102e93" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hello/hello.go" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Go_SDK.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hugo-site" afterPath="$PROJECT_DIR$/hugo-site" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/timeline" afterPath="$PROJECT_DIR$/timeline" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmd" afterPath="$PROJECT_DIR$/tmd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/umamimike.iml" afterPath="$PROJECT_DIR$/.idea/umamimike.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="umamimike.iws" />
@@ -27,22 +27,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="63">
-                <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tmd/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+              <folding>
+                <marker date="1470260037000" expanded="true" signature="14:67" ph="/.../" />
+                <marker date="1470260037000" expanded="true" signature="99:117" ph="/.../" />
+              </folding>
             </state>
-          </provider>
-          <provider editor-type-id="Gfm">
-            <state />
-          </provider>
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
           </provider>
         </entry>
       </file>
@@ -141,6 +135,8 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="last_opened_file_path" value="/usr/local/go" />
+    <property name="go.libraries.notification.had.been.shown" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
@@ -214,12 +210,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1470259726195</updated>
-      <workItem from="1470259727284" duration="728000" />
+      <workItem from="1470259727284" duration="1171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="728000" />
+    <option name="totallyTimeSpent" value="1171000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="368" y="139" width="1440" height="823" extended-state="0" />
@@ -262,21 +258,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tmd/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-          <folding>
-            <marker date="1470260037000" expanded="true" signature="14:67" ph="/.../" />
-            <marker date="1470260037000" expanded="false" signature="77:119" ph="..." />
-            <marker date="1470260037000" expanded="true" signature="99:117" ph="/.../" />
-            <marker date="1470260037000" expanded="true" signature="141:173" ph="{...}" />
-            <marker date="1470260037000" expanded="true" signature="156:171" ph="{...}" />
-            <marker date="1470260037000" expanded="true" signature="189:300" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -300,6 +281,17 @@
       </provider>
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmd/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <marker date="1470260037000" expanded="true" signature="14:67" ph="/.../" />
+            <marker date="1470260037000" expanded="true" signature="99:117" ph="/.../" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
