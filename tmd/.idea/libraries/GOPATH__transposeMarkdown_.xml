@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;transposeMarkdown&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../../lib/src/gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../../../../lib/src/github.com" />
+      <root url="file://$PROJECT_DIR$/../../../../../lib/src/golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../../../lib/src/.idea" />
+      <root url="file://$PROJECT_DIR$/../../../../../lib/src/fknsrs.biz" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../../../lib/src/gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../../../../../lib/src/github.com" />
+      <root url="file://$PROJECT_DIR$/../../../../../lib/src/golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../../../lib/src/.idea" />
+      <root url="file://$PROJECT_DIR$/../../../../../lib/src/fknsrs.biz" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
