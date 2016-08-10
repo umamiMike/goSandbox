@@ -1,0 +1,19 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "BIY45G2IVrTttD4Rlk9tHwiIOCM=",
+			"path": "github.com/go-sql-driver/mysql",
+			"revision": "3654d25ec346ee8ce71a68431025458d52a38ac0",
+			"revisionTime": "2016-06-02T00:10:21Z"
+		},
+		{
+			"checksumSHA1": "IZng6BNUrbf8VgBLWIVfcvSXDFM=",
+			"path": "github.com/icrowley/fake",
+			"revision": "84bff6d01560fb0b5a396ba29534e93fd00d09c6",
+			"revisionTime": "2014-12-23T21:37:57Z"
+		}
+	],
+	"rootPath": "github.com/umamimike/sqlscramble"
+}
