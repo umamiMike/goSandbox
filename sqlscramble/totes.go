@@ -12,15 +12,15 @@ func main() {
 
 
 	db, err := sql.Open("mysql", "root@/test")
-	if err != nil {
-		checkErr(err)
-	}
+	checkErr(err)
 
-	//rows, err := db.Query("select count(*) from Patients")
-	//checkErr(err)
-	//fmt.Printf(string(rows))
+	rows, err := db.Query("SELECT id FROM patients")
+	checkErr(err)
 
-	for i := 0; i < 1000; i++ {
+	// Get column names
+
+	for rows.Next() {
+
 
 		fname := fake.FirstName()
 		lname := fake.LastName()
@@ -29,13 +29,19 @@ func main() {
 		stmt, err := db.Prepare("Update Patients set firstname=?, lastname =?, middlename=? WHERE id=?")
 		checkErr(err)
 
-		res, err := stmt.Exec(fname,lname,mname,i)
+
+
+		//made a var to hold the data
+		var id int
+		//scan the row for the appropriate column and assign, check for error and print out
+		err = rows.Scan(&id)
 		checkErr(err)
 
-		id, err := res.LastInsertId()
-		checkErr(err)
 
+		res, err := stmt.Exec(fname,lname,mname,id)
+		checkErr(err)
 		fmt.Println(id)
+		fmt.Println(res)
 	}
 
 
