@@ -1,14 +1,14 @@
 package main
+
 import (
 	"database/sql"
+	"fmt"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/icrowley/fake"
-	"fmt"
-
 )
 
 func main() {
-	fmt.Print(fake.FirstName()+ "\n\n")
+	fmt.Print(fake.FirstName() + "\n\n")
 
 	db, err := sql.Open("mysql", "root@/main")
 	if err != nil {
@@ -29,7 +29,7 @@ func main() {
 	}
 
 	values := make([]sql.RawBytes, len(columns))
-fmt.Print(len(values))
+	fmt.Print(len(values))
 	// rows.Scan wants '[]interface{}' as an argument, so we must copy the
 	// references into such a slice
 	// See http://code.google.com/p/go-wiki/wiki/InterfaceSlice for details

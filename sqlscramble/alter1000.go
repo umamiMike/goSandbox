@@ -1,15 +1,13 @@
 package main
+
 import (
 	"database/sql"
+	"fmt"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/icrowley/fake"
-	"fmt"
-
 )
 
 func main() {
-
-
 
 	db, err := sql.Open("mysql", "root@/test")
 	if err != nil {
@@ -29,7 +27,7 @@ func main() {
 		stmt, err := db.Prepare("Update Patients set firstname=?, lastname =?, middlename=? WHERE id=?")
 		checkErr(err)
 
-		res, err := stmt.Exec(fname,lname,mname,i)
+		res, err := stmt.Exec(fname, lname, mname, i)
 		checkErr(err)
 
 		id, err := res.LastInsertId()
@@ -38,16 +36,12 @@ func main() {
 		fmt.Println(id)
 	}
 
-
-
-
-
 	db.Close()
 
 }
 
 func checkErr(err error) {
 	if err != nil {
-	panic(err)
+		panic(err)
 	}
 }
