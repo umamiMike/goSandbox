@@ -2,18 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c72a4523-5f8d-4ed3-8be3-c5f94d102e93" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/go-um-timeline/timeline.go" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hugo-site" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmd/.idea/copyright/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmd/.idea/libraries/GOPATH__transposeMarkdown_.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmd/.idea/libraries/Go_SDK.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmd/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmd/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmd/.idea/transposeMarkdown.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tmd/.idea/workspace.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/alter1000" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/webroot/vender/bootstrap/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/webroot/vender/bootstrap/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/BasicWorkingVersion.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/alter1000.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/totes.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/AUTHORS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/ISSUE_TEMPLATE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/PULL_REQUEST_TEMPLATE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/appengine.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/buffer.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/collations.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/connection.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/const.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/driver.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/dsn.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/errors.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/infile.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/packets.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/result.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/rows.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/statement.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/transaction.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/utils.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/addresses.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/credit_cards.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/currencies.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/data.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/dates.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/fake.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/general.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/geo.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/internet.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/jobs.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/lorem_ipsum.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/names.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/personal.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/products.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/vendor.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/cli/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/cli/src/client.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/cli/src/server.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/simple/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/simple/balls.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/simple/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/simple/jquery-2.1.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/simple/main.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/chat/client.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/chat/message.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/chat/server.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/main.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/webroot/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/webroot/js/Message.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/webroot/js/MessageList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/webroot/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/webroot/vender/bootstrap/css/bootstrap-responsive.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/webroot/vender/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/webroot/vender/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/webroot/vender/jquery-2.1.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/webroot/vender/jquery.json-2.5.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/webroot/vender/knockout-3.4.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/webroot/vender/require.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sqlscramble/main.go" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sqlscramble/main.go.ref" afterPath="$PROJECT_DIR$/sqlscramble/ref.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gofun" afterPath="$PROJECT_DIR$/gofun" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mwc-rpssl" afterPath="$PROJECT_DIR$/mwc-rpssl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/GOPATH__umamimike_.xml" afterPath="$PROJECT_DIR$/.idea/libraries/GOPATH__umamimike_.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/goinfive/ep0/in_memory_hashtable.go" afterPath="$PROJECT_DIR$/goinfive/ep0/in_memory_hashtable.go" />
     </list>
     <ignored path="umamimike.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,11 +99,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sqlscramble/main.go">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+            <state relative-caret-position="-373">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -56,8 +121,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/sqlscramble/main.go" />
         <option value="$PROJECT_DIR$/sqlscramble/README.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/goinfive/ep0/in_memory_hashtable.go" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -408,16 +473,16 @@
       <workItem from="1470264969585" duration="2140000" />
       <workItem from="1470408527657" duration="7017000" />
       <workItem from="1470445592017" duration="1331000" />
-      <workItem from="1475284792378" duration="2252000" />
+      <workItem from="1475284792378" duration="2439000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14932000" />
+    <option name="totallyTimeSpent" value="15119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="21" width="1600" height="879" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2631579" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -425,7 +490,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24505928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24505928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="GfmBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -505,14 +570,6 @@
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -946,6 +1003,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-373">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
