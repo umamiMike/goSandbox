@@ -1,4 +1,4 @@
-package ep0
+go package ep0
 
 import "sync"
 
