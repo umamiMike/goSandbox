@@ -7,9 +7,10 @@ import (
 	"github.com/icrowley/fake"
 )
 
+const
 func main() {
-
-	db, err := sql.Open("mysql", "root@/test")
+	//sql.Open("mysql", "<username>:<pw>@tcp(<HOST>:<port>)/<dbname>")
+	db, err := sql.Open("mysql", "vagrant:vagrant@tcp(192.168.56.22:3306)/AllergyNew")
 	checkErr(err)
 
 	rows, err := db.Query("SELECT id FROM patients")
@@ -23,7 +24,7 @@ func main() {
 		lname := fake.LastName()
 		mname := fake.Word()
 
-		stmt, err := db.Prepare("Update Patients set firstname=?, lastname =?, middlename=? WHERE id=?")
+		stmt, err := db.Prepare("Update patients set firstname=?, lastname =?, middlename=? WHERE id=?")
 		checkErr(err)
 
 		//made a var to hold the data
