@@ -3,12 +3,10 @@ package main
 //cli usage
 // transposeMarkdown inputFile outputFile
 
-
 import (
 	"os"
-	"io/ioutil"
-	//"bufio"
-	//"fmt"
+	"strings"
+	//	"fmt"
 )
 
 func check(e error) {
@@ -17,14 +15,19 @@ func check(e error) {
 	}
 }
 
-
-
-
-func main(){
-
+func main() {
 	infile := os.Args[1]
-	data := []byte(os.Args[2])
+	data := os.Args[2:]
+	collapsedData := (strings.Join(data, " "))
+	f, err := os.OpenFile(infile, os.O_APPEND|os.O_WRONLY, 0600)
+	if err != nil {
+		panic(err)
+	}
 
-	err := ioutil.WriteFile(infile, data,0644)
+	defer f.Close()
+
+	if _, err = f.WriteString(collapsedData); err != nil {
+		panic(err)
+	}
 	check(err)
 }
