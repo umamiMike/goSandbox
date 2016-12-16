@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c72a4523-5f8d-4ed3-8be3-c5f94d102e93" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/alter1000" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/webroot/vender/bootstrap/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/webroot/vender/bootstrap/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/BasicWorkingVersion.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/alter1000.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/totes.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/AUTHORS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/ISSUE_TEMPLATE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/PULL_REQUEST_TEMPLATE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/appengine.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/buffer.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/collations.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/connection.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/const.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/driver.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/dsn.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/errors.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/infile.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/packets.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/result.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/rows.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/statement.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/transaction.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/go-sql-driver/mysql/utils.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/addresses.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/credit_cards.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/currencies.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/data.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/dates.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/fake.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/general.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/geo.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/internet.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/jobs.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/lorem_ipsum.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/names.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/personal.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/github.com/icrowley/fake/products.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sqlscramble/vendor/vendor.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/cli/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/cli/src/client.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/cli/src/server.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/simple/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/simple/balls.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/simple/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/simple/jquery-2.1.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/simple/main.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/chat/client.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/chat/message.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/chat/server.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/main.go" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/webroot/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/webroot/js/Message.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/webroot/js/MessageList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/webroot/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/webroot/vender/bootstrap/css/bootstrap-responsive.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/webroot/vender/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/webroot/vender/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/webroot/vender/jquery-2.1.4.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/webroot/vender/jquery.json-2.5.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/webroot/vender/knockout-3.4.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/umwebsocket/websocket-chat/src/webroot/vender/require.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sqlscramble/main.go" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sqlscramble/main.go.ref" afterPath="$PROJECT_DIR$/sqlscramble/ref.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gofun" afterPath="$PROJECT_DIR$/gofun" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mwc-rpssl" afterPath="$PROJECT_DIR$/mwc-rpssl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/GOPATH__umamimike_.xml" afterPath="$PROJECT_DIR$/.idea/libraries/GOPATH__umamimike_.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="umamimike.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="umamimike" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-373">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tmd/main.go" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/sqlscramble/main.go" />
+        <option value="$PROJECT_DIR$/sqlscramble/README.md" />
+        <option value="$PROJECT_DIR$/goinfive/ep0/in_memory_hashtable.go" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="Remote PHP 5.6" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="21" />
+    <option name="width" value="1600" />
+    <option name="height" value="879" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goSandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goSandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goSandbox" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goSandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goSandbox" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="umwebsocket" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goSandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goSandbox" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sqlscramble" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goSandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goSandbox" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lca2015" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goSandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goSandbox" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lca2015" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="part3" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goSandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goSandbox" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lca2015" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="part2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goSandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goSandbox" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lca2015" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="part1_final" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goSandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goSandbox" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lca2015" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="part1" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goSandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goSandbox" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goinfive" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goSandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goSandbox" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gofun" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goSandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goSandbox" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gofun" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="string" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goSandbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goSandbox" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="go-web-app-tutorial" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Redox" />
+    <property name="go.libraries.notification.had.been.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sqlscramble" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c72a4523-5f8d-4ed3-8be3-c5f94d102e93" name="Default" comment="" />
+      <created>1470259726195</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1470259726195</updated>
+      <workItem from="1470259727284" duration="2192000" />
+      <workItem from="1470264969585" duration="2140000" />
+      <workItem from="1470408527657" duration="7017000" />
+      <workItem from="1470445592017" duration="1331000" />
+      <workItem from="1475284792378" duration="2439000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15119000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="21" width="1600" height="879" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2631579" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24505928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="GfmBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sqlscramble/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqlscramble/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmd/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmd/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file:///usr/local/go/src/builtin/builtin.go" />
+    <entry file="file:///usr/local/go/src/database/sql/sql.go" />
+    <entry file="file://$PROJECT_DIR$/sqlscramble/main.go.ref">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="29" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqlscramble/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmd/you are made of poop">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmd/balls.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmd/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <marker date="1470360978137" expanded="true" signature="14:67" ph="/.../" />
+            <marker date="1470360978137" expanded="true" signature="77:119" ph="..." />
+            <marker date="1470360978137" expanded="true" signature="99:117" ph="/.../" />
+            <marker date="1470360978137" expanded="true" signature="141:173" ph="{...}" />
+            <marker date="1470360978137" expanded="true" signature="156:171" ph="{...}" />
+            <marker date="1470360978137" expanded="true" signature="189:300" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goinfive/ep0/business_logic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1470360978137" expanded="true" signature="45:81" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goinfive/ep0/business_logic_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1470360978137" expanded="false" signature="20:29" ph="..." />
+            <marker date="1470360978137" expanded="true" signature="68:223" ph="{...}" />
+            <marker date="1470360978137" expanded="true" signature="163:221" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goinfive/ep0/hashtable.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1470360978137" expanded="false" signature="20:28" ph="..." />
+            <marker date="1470360978137" expanded="true" signature="78:283" ph="/.../" />
+            <marker date="1470360978137" expanded="true" signature="309:382" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goinfive/ep0/in_memory_hashtable.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding>
+            <marker date="1475285536005" expanded="false" signature="23:29" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gofun/string/string.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1458020524199" expanded="true" signature="45:168" ph="{...}" />
+            <marker date="1458020524199" expanded="true" signature="93:146" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-um-timeline/timeline.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gotimeline/timeline.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <marker date="1467479264095" expanded="true" signature="21:26" ph="..." />
+            <marker date="1467479264095" expanded="true" signature="49:66" ph="{...}" />
+            <marker date="1467479264095" expanded="true" signature="80:201" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gotimeline/event/event.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1467479264095" expanded="true" signature="34:48" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/umwebsocket/websocket1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-463">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1470445573543" expanded="false" signature="21:95" ph="..." />
+            <marker date="1470445573543" expanded="true" signature="101:147" ph="(...)" />
+            <marker date="1470445573543" expanded="true" signature="169:201" ph="{...}" />
+            <marker date="1470445573543" expanded="true" signature="184:199" ph="{...}" />
+            <marker date="1470445573543" expanded="true" signature="239:667" ph="{...}" />
+            <marker date="1470445573543" expanded="true" signature="301:645" ph="{...}" />
+            <marker date="1470445573543" expanded="true" signature="368:393" ph="{...}" />
+            <marker date="1470445573543" expanded="true" signature="681:1009" ph="{...}" />
+            <marker date="1470445573543" expanded="true" signature="704:748" ph="{...}" />
+            <marker date="1470445573543" expanded="true" signature="967:1007" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goApiSandbox/goApiSandbox.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding>
+            <marker date="1464849442165" expanded="true" signature="21:85" ph="..." />
+            <marker date="1464849442165" expanded="true" signature="99:227" ph="{...}" />
+            <marker date="1464849442165" expanded="true" signature="280:381" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mwc-rpssl/models.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1461640803728" expanded="true" signature="33:93" ph="{...}" />
+            <marker date="1461640803728" expanded="true" signature="218:263" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mwc-rpssl/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding>
+            <marker date="1466050448662" expanded="false" signature="21:60" ph="..." />
+            <marker date="1466050448662" expanded="true" signature="85:133" ph="{...}" />
+            <marker date="1466050448662" expanded="true" signature="147:223" ph="{...}" />
+            <marker date="1466050448662" expanded="true" signature="289:419" ph="{...}" />
+            <marker date="1466050448662" expanded="true" signature="331:348" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goinfive/ep02/testconcurrent.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1470360978137" expanded="true" signature="15:247" ph="/.../" />
+            <marker date="1470360978137" expanded="false" signature="256:294" ph="..." />
+            <marker date="1470360978137" expanded="true" signature="315:349" ph="{...}" />
+            <marker date="1470360978137" expanded="true" signature="351:556" ph="/.../" />
+            <marker date="1470360978137" expanded="true" signature="599:909" ph="{...}" />
+            <marker date="1470360978137" expanded="true" signature="793:855" ph="{...}" />
+            <marker date="1470360978137" expanded="true" signature="809:843" ph="{...}" />
+            <marker date="1470360978137" expanded="true" signature="869:907" ph="{...}" />
+            <marker date="1470360978137" expanded="true" signature="923:1374" ph="{...}" />
+            <marker date="1470360978137" expanded="true" signature="942:1031" ph="{...}" />
+            <marker date="1470360978137" expanded="true" signature="1128:1264" ph="{...}" />
+            <marker date="1470360978137" expanded="true" signature="1208:1259" ph="{...}" />
+            <marker date="1470360978137" expanded="true" signature="1276:1307" ph="{...}" />
+            <marker date="1470360978137" expanded="true" signature="1332:1372" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goinfive/ep02/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goinfive/ep02/concurrent.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <marker date="1470360978137" expanded="true" signature="21:59" ph="..." />
+            <marker date="1470360978137" expanded="true" signature="80:114" ph="{...}" />
+            <marker date="1470360978137" expanded="true" signature="158:354" ph="{...}" />
+            <marker date="1470360978137" expanded="true" signature="238:300" ph="{...}" />
+            <marker date="1470360978137" expanded="true" signature="254:288" ph="{...}" />
+            <marker date="1470360978137" expanded="true" signature="314:352" ph="{...}" />
+            <marker date="1470360978137" expanded="true" signature="368:819" ph="{...}" />
+            <marker date="1470360978137" expanded="true" signature="387:476" ph="{...}" />
+            <marker date="1470360978137" expanded="true" signature="573:709" ph="{...}" />
+            <marker date="1470360978137" expanded="true" signature="653:704" ph="{...}" />
+            <marker date="1470360978137" expanded="true" signature="721:752" ph="{...}" />
+            <marker date="1470360978137" expanded="true" signature="777:817" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gofun/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <marker date="1464755587669" expanded="true" signature="21:85" ph="..." />
+            <marker date="1464755587669" expanded="true" signature="99:227" ph="{...}" />
+            <marker date="1464755587669" expanded="true" signature="280:381" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go-web-app-tutorial/loggy.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <marker date="1466049529518" expanded="true" signature="21:59" ph="..." />
+            <marker date="1466049529518" expanded="true" signature="78:110" ph="{...}" />
+            <marker date="1466049529518" expanded="true" signature="140:224" ph="{...}" />
+            <marker date="1466049529518" expanded="true" signature="269:432" ph="{...}" />
+            <marker date="1466049529518" expanded="true" signature="357:382" ph="{...}" />
+            <marker date="1466049529518" expanded="true" signature="397:423" ph="{...}" />
+            <marker date="1466049529518" expanded="true" signature="490:619" ph="{...}" />
+            <marker date="1466049529518" expanded="true" signature="636:715" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lca2015/final/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1466476523497" expanded="true" signature="0:276" ph="/*...*/" />
+            <marker date="1466476523497" expanded="true" signature="304:489" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="325:469" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lca2015/final/proxy.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1620">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <marker date="1466476523497" expanded="true" signature="0:312" ph="/*...*/" />
+            <marker date="1466476523497" expanded="true" signature="335:413" ph="..." />
+            <marker date="1466476523497" expanded="true" signature="440:571" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="594:722" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="724:842" ph="/.../" />
+            <marker date="1466476523497" expanded="true" signature="873:1281" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="965:1011" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="1089:1135" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="1141:1279" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="1186:1246" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="1283:1403" ph="/.../" />
+            <marker date="1466476523497" expanded="true" signature="1455:3020" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="1549:3018" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="1606:1698" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="1628:1684" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="1766:2545" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="1778:2527" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="2083:2428" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="2549:2929" ph="/.../" />
+            <marker date="1466476523497" expanded="true" signature="2965:2998" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="3022:3275" ph="/.../" />
+            <marker date="1466476523497" expanded="true" signature="3346:5522" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="3349:3498" ph="/.../" />
+            <marker date="1466476523497" expanded="true" signature="3569:3846" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="3619:3670" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="3697:3843" ph="..." />
+            <marker date="1466476523497" expanded="true" signature="3849:3975" ph="/.../" />
+            <marker date="1466476523497" expanded="true" signature="4027:4162" ph="/.../" />
+            <marker date="1466476523497" expanded="true" signature="4210:4258" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="4352:4406" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="4536:4851" ph="/.../" />
+            <marker date="1466476523497" expanded="true" signature="4952:5017" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="5270:5486" ph="/.../" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lca2015/part1/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <marker date="1466476523497" expanded="true" signature="0:165" ph="/*...*/" />
+            <marker date="1466476523497" expanded="true" signature="188:219" ph="..." />
+            <marker date="1466476523497" expanded="true" signature="233:614" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="327:612" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="394:608" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="487:603" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="553:598" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lca2015/part1_final/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1466476523497" expanded="true" signature="0:165" ph="/*...*/" />
+            <marker date="1466476523497" expanded="false" signature="188:226" ph="..." />
+            <marker date="1466476523497" expanded="true" signature="240:1258" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="327:1256" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="335:1253" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="409:1249" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="544:1244" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="657:1238" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="785:1231" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="905:1223" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="1052:1136" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lca2015/part2/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+          <folding>
+            <marker date="1466476523497" expanded="true" signature="0:165" ph="/*...*/" />
+            <marker date="1466476523497" expanded="false" signature="188:226" ph="..." />
+            <marker date="1466476523497" expanded="true" signature="240:1258" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="327:1256" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="335:1253" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="409:1249" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="544:1244" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="657:1238" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="785:1231" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="905:1223" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="1052:1136" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lca2015/part3/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1466476523497" expanded="true" signature="0:276" ph="/*...*/" />
+            <marker date="1466476523497" expanded="false" signature="299:362" ph="..." />
+            <marker date="1466476523497" expanded="true" signature="376:567" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="432:478" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="484:565" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="528:562" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="569:689" ph="/.../" />
+            <marker date="1466476523497" expanded="true" signature="727:1419" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="788:1417" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="845:937" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="867:923" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="1055:1414" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="1132:1410" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="1200:1405" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="1280:1358" ph="{...}" />
+            <marker date="1466476523497" expanded="true" signature="1378:1399" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lca2015/bash.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lca2015/fish.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lca2015/zsh.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lca2015/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sqlscramble/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-373">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
