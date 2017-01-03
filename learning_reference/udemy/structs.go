@@ -18,7 +18,14 @@ type DoubleZero struct {
 	LicenseToKill bool
 }
 
-type jsonPerson struct {
+func (p Person) Greeting() {
+	fmt.Println("I am only a normal bloke or blokette")
+}
+
+//illustrating method overriding by changin receivers...you can use the same method name but since
+//it is a different receiver it maps correctly
+func (d DoubleZero) Greeting() {
+	fmt.Println("WHy I am the doubleZed")
 }
 
 //methods
@@ -54,4 +61,21 @@ func main() {
 	fmt.Println("Using the method FullName to print the full name of p1", lb)
 	fmt.Println(p1.fullName())
 
+	//example of an embedded type
+	//person type is IN DoubleZero struct
+	p3 := DoubleZero{
+		Person: Person{
+			First: "The",
+			Last:  "Dude",
+			Age:   50,
+		},
+		LicenseToKill: true,
+	}
+	//illustrates basic embedded type
+	fmt.Println(p3.Person.Last)
+
+	//illustrates method override by showing different greetings based on which object is the receiver of the call\
+	p1.Greeting()        //should print from the person object
+	p3.Greeting()        // whereas this greeting is for the DoubleZero struct
+	p3.Person.Greeting() //and this shows how to get to the Person greeting INSIDE the embedded type
 }
