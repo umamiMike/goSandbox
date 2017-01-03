@@ -37,10 +37,9 @@ it is not idiomatic to use this or self
 func (p Person) fullName() string {
 	return p.First + " " + p.Last
 }
-
-const (
-	lb = "-------------------------"
-)
+func lb() {
+	fmt.Println("------------------------------------------")
+}
 
 func main() {
 	//adding some person objects
@@ -55,10 +54,12 @@ func main() {
 		LicenseToKill: true,
 	}
 
-	fmt.Println("manual assembly of struct properties", lb)
+	fmt.Println("manual assembly of struct properties")
 	fmt.Println(dbloh1.First, dbloh1.Person.Last, "...", dbloh1.Person.First, dbloh1.Person.Last)
 	//this illustrates the use of the fullName Method use on one of the objects
-	fmt.Println("Using the method FullName to print the full name of p1", lb)
+	lb()
+
+	fmt.Println("Using the method FullName to print the full name of p1")
 	fmt.Println(p1.fullName())
 
 	//example of an embedded type
@@ -78,4 +79,10 @@ func main() {
 	p1.Greeting()        //should print from the person object
 	p3.Greeting()        // whereas this greeting is for the DoubleZero struct
 	p3.Person.Greeting() //and this shows how to get to the Person greeting INSIDE the embedded type
+
+	p4 := &Person{"James", "Mcevoy", 20}
+
+	fmt.Println(p4)
+	fmt.Println()
+
 }
