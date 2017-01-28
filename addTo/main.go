@@ -21,7 +21,7 @@ func check(e error) {
 
 func main() {
 	infile := os.Args[1]
-	data := os.Args[2:]
+	data := os.Args[2:] //everything after the first arg becomes data
 
 	// 	data2 := make(string "\n", data)
 
