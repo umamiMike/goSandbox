@@ -7,7 +7,7 @@ import (
 	"github.com/icrowley/fake"
 )
 
-const
+
 func main() {
 	//sql.Open("mysql", "<username>:<pw>@tcp(<HOST>:<port>)/<dbname>")
 	db, err := sql.Open("mysql", "vagrant:vagrant@tcp(192.168.56.22:3306)/AllergyNew")
