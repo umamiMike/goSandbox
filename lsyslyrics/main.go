@@ -20,6 +20,7 @@ import (
 
 type system struct {
 	Vars       []string
+	Initiator  string
 	Iterations int
 }
 
@@ -35,24 +36,33 @@ func (s system) run(r map[string]string) {
 		fmt.Println("a variable is ", v)
 		fmt.Println("and the value of ", r["A"])
 	}
+	output := s.Initiator
+
+	for i := 1; i < s.Iterations; i++ {
+		//		output = output +
+
+		fmt.Println(output)
+	}
 }
 
 func main() {
 
-	system_to_run := system{
+	systemliteral := system{
 		Vars:       []string{"A", "B"},
+		Initiator:  "A",
 		Iterations: 3,
 	}
 
-	fmt.Println(system_to_run)
+	fmt.Println(systemliteral)
 	constants := "none"
 	fmt.Println("constants are", constants)
-	initiator := system_to_run.Vars[0]
+	initiator := systemliteral.Vars[0]
 	ruleset := map[string]string{
 		"A": "AB",
 		"B": "BA",
 	}
 	fmt.Println(initiator, "is the initiator")
 	fmt.Println(ruleset)
-	system_to_run.run(ruleset)
+
+	systemliteral.run(ruleset)
 }
