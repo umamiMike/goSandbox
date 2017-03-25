@@ -19,22 +19,40 @@ import (
 )
 
 type system struct {
-	Vars []string
+	Vars       []string
+	Iterations int
 }
 
-func (s system) run() {
+//type ruleset struct {
+//
+//}
+//func makeRulesets() *Ruleset {
+//
+//}
+
+func (s system) run(r map[string]string) {
 	for _, v := range s.Vars {
 		fmt.Println("a variable is ", v)
+		fmt.Println("and the value of ", r["A"])
 	}
 }
 
 func main() {
 
-	system_to_run := system{Vars: []string{"A", "B"}}
+	system_to_run := system{
+		Vars:       []string{"A", "B"},
+		Iterations: 3,
+	}
+
 	fmt.Println(system_to_run)
 	constants := "none"
 	fmt.Println("constants are", constants)
 	initiator := system_to_run.Vars[0]
+	ruleset := map[string]string{
+		"A": "AB",
+		"B": "BA",
+	}
 	fmt.Println(initiator, "is the initiator")
-	system_to_run.run()
+	fmt.Println(ruleset)
+	system_to_run.run(ruleset)
 }
