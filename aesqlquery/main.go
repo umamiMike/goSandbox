@@ -5,23 +5,44 @@ import (
 	"encoding/json"
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
+	"os"
+	//	"net/http"
 )
 
 //type JsonResponse struct
+var (
+	DB = map[string]string{
+		"db_name": "user:password@tcp(127.0.0.1:PORT)/DBNAME",
+	}
+)
 
 func main() {
-	//sql.Open("mysql", "<username>:<pw>@tcp(<HOST>:<port>)/<dbname>")
-	getJSON("select mix_date, patients.firstname, patients.lastname, barcode from vials inner join patients on patient_id  = patients.id where mix_date IS NOT null order by vials.mix_practice_id")
+	//	http.HandleFunc("/", jsonResponseHandler)
+	//	http.ListenAndServe(":8080", nil)
+	if len(os.Args) > 1 {
+		queries := os.Args[2:]
+		for query := range queries {
+			fmt.Println(queries[query])
+			getJSON(queries[query], os.Args[1])
+		}
+	} else {
+		fmt.Println("USAGE: aesqlquery 'Name of Database you want to connect to, 'sql query wrapped in double quotes, as many as you want.")
+		fmt.Println("Databases avail are: db_name")
+	}
 }
 
+//func jsonResponseHandler(w http.ResponseWriter, r *http.Request) {
+//	fmt.Println("jsonRoseponse handler reproting for duty")
+//}
 func checkErr(err error) {
 	if err != nil {
 		panic(err)
 	}
 }
 
-func getJSON(sqlString string) (string, error) {
-	db, err := sql.Open("mysql", "vagrant:vagrant@tcp(192.168.56.22:3306)/AllergyNew")
+func getJSON(sqlString string, dbConn string) (string, error) {
+	// db, err := sql.Open("mysql", "vagrant:vagrant@tcp(192.168.56.22:3306)/AllergyNew")
+	db, err := sql.Open("mysql", DB[dbConn])
 	checkErr(err)
 	rows, err := db.Query(sqlString)
 	if err != nil {
@@ -55,7 +76,7 @@ func getJSON(sqlString string) (string, error) {
 		}
 		tableData = append(tableData, entry)
 	}
-	jsonData, err := json.Marshal(tableData)
+	jsonData, err := json.MarshalIndent(tableData, "", "  ")
 	if err != nil {
 		return "", err
 	}
