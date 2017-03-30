@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"os"
 	"os/exec"
-	"syscall"
+	//	"syscall"
 )
 
 // docker run <container> command args
@@ -31,9 +31,9 @@ func run() {
 	cmd.Stderr = os.Stderr
 	cmd.Stdout = os.Stdout
 
-	cmd.SysProcAttr = &syscall.SysProcAttr{
-		Cloneflags: syscall.CLONE_NEWUTS,
-	}
+	//	cmd.SysProcAttr = &syscall.SysProcAttr{
+	//		Cloneflags: syscall.CLONE_NEWUTS,
+	//	}
 	must(cmd.Run())
 }
 
