@@ -1,6 +1,11 @@
 /*
 Taken from https://youtu.be/eVlxuST7dCA
 Yamil Asusta
+
+function with return the publicKey
+when you sign you use private
+verify use public key
+
 */
 package main
 
@@ -39,5 +44,17 @@ func APIHandler(w http.ResponseWriter, r *http.Request, next http.HandlerFunc) {
 	fmt.Fprinf(w, "You are Authorized")
 }
 func main() {
+	router := mux.NewRouter()
+	n := negroni.Classic()
 
+	router.HandleFunc("/login", func(w http.ResponseWriter, r *http.Request) {
+		token := nwt.New(jwt.GetSigningMethod("RS256"))
+		tokenString, err := token.SignedString(privateKey)
+		w.WriteHeader(http.StatusOK)
+		fmt.Fprint(w, tokenString)
+	})
+	router.Handle("/api", negroni.New(negroni.HandleFunc(AuthMiddleware), negroni.HandlerFunc(APIHandler)))
+
+	n.UseHandler(router)
+	http.ListenAndServe(":3000", n)
 }
