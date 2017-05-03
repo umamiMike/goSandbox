@@ -25,35 +25,35 @@ var (
 )
 
 func init() {
-	publicKey, err := ioutil.Readfile("demo.rsa.pub")
-	privateKey, err := ioutil.Readfile("demo.rsa")
+	publicKey, _ = ioutil.ReadFile("demo.rsa.pub")
+	privateKey, _ = ioutil.ReadFile("demo.rsa")
 }
 func AuthMiddleware(w http.ResponseWriter, r *http.Request, next http.HandlerFunc) {
 	token, err := jwt.ParseFromRequest(r, func(token *jwt.Token) (interface{}, error) {
 		return publicKey, nil
 	})
-	if err == nil && token.Valid() {
+	if err == nil && token.Valid {
 		next(w, r)
 	} else {
 		w.WriteHeader(http.StatusUnauthorized)
-		fmt.Fprint(w, "Not Authorized")
+		fmt.Fprintf(w, "Not Authorized")
 	}
 }
 func APIHandler(w http.ResponseWriter, r *http.Request, next http.HandlerFunc) {
 	w.WriteHeader(http.StatusOK)
-	fmt.Fprinf(w, "You are Authorized")
+	fmt.Fprintf(w, "You are Authorized")
 }
 func main() {
 	router := mux.NewRouter()
 	n := negroni.Classic()
 
 	router.HandleFunc("/login", func(w http.ResponseWriter, r *http.Request) {
-		token := nwt.New(jwt.GetSigningMethod("RS256"))
-		tokenString, err := token.SignedString(privateKey)
+		token := jwt.New(jwt.GetSigningMethod("RS256"))
+		tokenString, _ := token.SignedString(privateKey)
 		w.WriteHeader(http.StatusOK)
 		fmt.Fprint(w, tokenString)
 	})
-	router.Handle("/api", negroni.New(negroni.HandleFunc(AuthMiddleware), negroni.HandlerFunc(APIHandler)))
+	router.Handle("/api", negroni.New(negroni.HandlerFunc(AuthMiddleware), negroni.HandlerFunc(APIHandler)))
 
 	n.UseHandler(router)
 	http.ListenAndServe(":3000", n)
