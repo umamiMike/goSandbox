@@ -20,6 +20,7 @@ import (
 )
 
 var (
+	PORT       = ":3001"
 	signingkey = "deathBySnuSnu"
 	privateKey []byte
 	publicKey  []byte
@@ -59,5 +60,5 @@ func main() {
 	router.Handle("/api", negroni.New(negroni.HandlerFunc(AuthMiddleware), negroni.HandlerFunc(APIHandler)))
 
 	n.UseHandler(router)
-	http.ListenAndServe(":3000", n)
+	http.ListenAndServe(PORT, n)
 }
