@@ -1,15 +1,16 @@
-/*
+/**
 Taken from https://youtu.be/eVlxuST7dCA
 Yamil Asusta
 
 function with return the publicKey
 when you sign you use private
 verify use public key
-
-*/
+test by
+**/
 package main
 
 import (
+	//"crypto/rsa"
 	"fmt"
 	"github.com/codegangsta/negroni"
 	jwt "github.com/dgrijalva/jwt-go"
@@ -19,7 +20,7 @@ import (
 )
 
 var (
-	signingkey = "fuelRox"
+	signingkey = "deathBySnuSnu"
 	privateKey []byte
 	publicKey  []byte
 )
@@ -29,12 +30,14 @@ func init() {
 	privateKey, _ = ioutil.ReadFile("demo.rsa")
 }
 func AuthMiddleware(w http.ResponseWriter, r *http.Request, next http.HandlerFunc) {
+	// 	fmt.Fprintf(w, "%T", publicKey)
 	token, err := jwt.ParseFromRequest(r, func(token *jwt.Token) (interface{}, error) {
 		return publicKey, nil
 	})
 	if err == nil && token.Valid {
 		next(w, r)
 	} else {
+		fmt.Fprintln(w, err)
 		w.WriteHeader(http.StatusUnauthorized)
 		fmt.Fprintf(w, "Not Authorized")
 	}
