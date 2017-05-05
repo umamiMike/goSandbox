@@ -10,7 +10,6 @@ test by
 package main
 
 import (
-	//	"crypto/rsa"
 	"fmt"
 	"github.com/codegangsta/negroni"
 	jwt "github.com/dgrijalva/jwt-go"
@@ -20,7 +19,6 @@ import (
 )
 
 var (
-	signingkey = "deathBySnuSnu"
 	privateKey []byte
 	publicKey  []byte
 )
@@ -41,10 +39,6 @@ func AuthMiddleware(w http.ResponseWriter, r *http.Request, next http.HandlerFun
 		fmt.Fprintf(w, "Not Authorized")
 	}
 }
-func APIHandler(w http.ResponseWriter, r *http.Request, next http.HandlerFunc) {
-	w.WriteHeader(http.StatusOK)
-	fmt.Fprintf(w, "You are Authorized")
-}
 func main() {
 	router := mux.NewRouter()
 	n := negroni.Classic()
@@ -55,8 +49,6 @@ func main() {
 		w.WriteHeader(http.StatusOK)
 		fmt.Fprint(w, tokenString)
 	})
-	router.Handle("/api", negroni.New(negroni.HandlerFunc(AuthMiddleware), negroni.HandlerFunc(APIHandler)))
-
 	n.UseHandler(router)
 	http.ListenAndServe(":3000", n)
 }

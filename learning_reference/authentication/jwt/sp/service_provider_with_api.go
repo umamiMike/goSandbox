@@ -49,16 +49,7 @@ func APIHandler(w http.ResponseWriter, r *http.Request, next http.HandlerFunc) {
 func main() {
 	router := mux.NewRouter()
 	n := negroni.Classic()
-
-	router.HandleFunc("/login", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprint(w, "in the login route")
-		token := jwt.New(jwt.GetSigningMethod("RS256"))
-		tokenString, _ := token.SignedString(privateKey)
-		w.WriteHeader(http.StatusOK)
-		fmt.Fprint(w, tokenString)
-	})
 	router.Handle("/api", negroni.New(negroni.HandlerFunc(AuthMiddleware), negroni.HandlerFunc(APIHandler)))
-
 	n.UseHandler(router)
 	http.ListenAndServe(PORT, n)
 }
