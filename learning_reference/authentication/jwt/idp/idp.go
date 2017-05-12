@@ -10,45 +10,71 @@ test by
 package main
 
 import (
+	"crypto/rsa"
 	"fmt"
 	"github.com/codegangsta/negroni"
 	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/gorilla/mux"
 	"io/ioutil"
 	"net/http"
+	//	"time"
+)
+
+const (
+	PORT = ":3000"
 )
 
 var (
-	privateKey []byte
-	publicKey  []byte
+	signKey     *rsa.PrivateKey
+	verifyKey   *rsa.PublicKey
+	privKeyPath string = "demo.rsa"
+	pubKeyPath  string = "demo.rsa.pub"
+	signBytes   []byte
+	verifyBytes []byte
 )
 
 func init() {
-	publicKey, _ = ioutil.ReadFile("demo.rsa.pub")
-	privateKey, _ = ioutil.ReadFile("demo.rsa")
-}
-func AuthMiddleware(w http.ResponseWriter, r *http.Request, next http.HandlerFunc) {
-	token, err := jwt.ParseFromRequest(r, func(token *jwt.Token) (interface{}, error) {
-		return publicKey, nil
-	})
-	if err == nil && token.Valid {
-		next(w, r)
-	} else {
-		fmt.Fprintln(w, err)
-		w.WriteHeader(http.StatusUnauthorized)
-		fmt.Fprintf(w, "Not Authorized")
+	var err error
+
+	signBytes, err = ioutil.ReadFile(privKeyPath)
+	if err != nil {
+		fmt.Println("priv key fail: ", err)
+	}
+	signKey, err = jwt.ParseRSAPrivateKeyFromPEM(signBytes)
+	if err != nil {
+		fmt.Println(err)
+	}
+	verifyBytes, err = ioutil.ReadFile(pubKeyPath)
+	if err != nil {
+		fmt.Println("virifyBytes failure reading public key: ", err)
+	}
+	verifyKey, err = jwt.ParseRSAPublicKeyFromPEM(verifyBytes)
+	if err != nil {
+		fmt.Println(err)
 	}
 }
 func main() {
 	router := mux.NewRouter()
 	n := negroni.Classic()
-	router.HandleFunc("/login", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprint(w, "in the login route:\n")
-		token := jwt.New(jwt.GetSigningMethod("RS256"))
-		tokenString, _ := token.SignedString(privateKey)
-		w.WriteHeader(http.StatusOK)
-		fmt.Fprint(w, tokenString)
-	})
+	router.Handle("/login", negroni.New(negroni.HandlerFunc(LoginHandler)))
 	n.UseHandler(router)
-	http.ListenAndServe(":3000", n)
+	http.ListenAndServe(PORT, n)
+}
+func LoginHandler(w http.ResponseWriter, r *http.Request, next http.HandlerFunc) {
+	fmt.Fprint(w, "in the login route:\n")
+	token := jwt.New(jwt.SigningMethodRS256)
+	fmt.Fprint(w, "the token is ")
+	fmt.Fprint(w, token)
+	/*
+		claims := make(jwt.MapClaims)
+		claims["username"] = "theusername"
+		claims["iat"] = time.Now()
+	*/
+	//	token.Claims = claims
+	tokenString, err := token.SignedString(signKey)
+	if err != nil {
+		fmt.Println(err)
+	}
+	fmt.Fprint(w, "This is your token string, use it wisely\n")
+	fmt.Fprint(w, tokenString)
 }

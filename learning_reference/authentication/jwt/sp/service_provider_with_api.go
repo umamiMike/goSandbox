@@ -1,5 +1,5 @@
 /**
-Taken from https://youtu.be/eVlxuST7dCA
+aken from https://youtu.be/eVlxuST7dCA
 Yamil Asusta
 
 function with return the publicKey
@@ -20,18 +20,27 @@ import (
 )
 
 var (
-	PORT       = ":3001"
-	signingkey = "deathBySnuSnu"
-	privateKey []byte
-	publicKey  []byte
+	PORT        = ":3001"
+	signKey     *rsa.PrivateKey
+	verifyKey   *rsa.PublicKey
+	privKeyPath string = "demo.rsa"
+	pubKeyPath  string = "demo.rsa.pub"
+	signBytes   []byte
+	verifyBytes []byte
 )
 
 func init() {
-	publicKey, _ = ioutil.ReadFile("demo.rsa.pub")
-	privateKey, _ = ioutil.ReadFile("demo.rsa")
+	verifyBytes, err = ioutil.ReadFile(pubKeyPath)
+	if err != nil {
+		fmt.Println("verifyBytes failure reading public key: ", err)
+	}
+	verifyKey, err = jwt.ParseRSAPublicKeyFromPEM(verifyBytes)
+	if err != nil {
+		fmt.Println(err)
+	}
 }
 func AuthMiddleware(w http.ResponseWriter, r *http.Request, next http.HandlerFunc) {
-	token, err := jwt.ParseFromRequest(r, func(token *jwt.Token) (interface{}, error) {
+	token, err := .ParseFromRequest(r, func(token *jwt.Token) (interface{}, error) {
 		return publicKey, nil
 	})
 	if err == nil && token.Valid {
