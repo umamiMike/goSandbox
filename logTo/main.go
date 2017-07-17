@@ -9,6 +9,7 @@ addto the/file/path the string you want to add to the file.
 import (
 	"os"
 	"strings"
+	"time"
 )
 
 func check(e error) {
@@ -26,7 +27,7 @@ func main() {
 			panic(err)
 		}
 		defer f.Close()
-		if _, err = f.WriteString(collapsedData); err != nil {
+		if _, err = f.WriteString("\n\n" + time.Now().Format("01-02-2006 15:04:05") + " - " + collapsedData); err != nil {
 			panic(err)
 		}
 		check(err)
