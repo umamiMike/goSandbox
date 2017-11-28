@@ -16,7 +16,7 @@ func main() {
 	// mux.Handle("/public", http.FileServer(http.Dir("/home/public")))
 
 	n := negroni.New()
-	n.Use(negroni.NewStatic(http.Dir("/etc")))
+	n.Use(negroni.NewStatic(http.Dir("/home")))
 	n.UseHandler(mux)
 
 	http.ListenAndServe(":3002", n)
