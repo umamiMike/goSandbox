@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"io"
 	"net/http"
 
@@ -14,7 +15,8 @@ func echoHandler(ws *websocket.Conn) {
 func main() {
 	http.Handle("/echo", websocket.Handler(echoHandler))
 	http.Handle("/", http.FileServer(http.Dir(".")))
-	err := http.ListenAndServe(":8080", nil)
+	err := http.ListenAndServe(":8090", nil)
+	fmt.Println("Serving on Port 8090")
 	if err != nil {
 		panic("ListenAndServe: " + err.Error())
 	}
