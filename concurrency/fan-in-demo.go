@@ -12,8 +12,8 @@ func producer(ch chan int, d time.Duration) {
 	for {
 		ch <- i
 		i++
-		rantime := time.Duration(r.Intn(3))
-		fmt.Println(rantime)
+		rantime := time.Duration(r.Intn(6)) * time.Second
+		fmt.Println("I sleep for this long:", rantime)
 		time.Sleep(rantime + d)
 	}
 }
