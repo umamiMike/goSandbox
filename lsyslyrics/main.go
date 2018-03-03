@@ -1,68 +1,44 @@
-/**
-I am working on a go program to generate L-systems
-currently for strings only.
-
-rules should be a slice of key value pairs
-i need a function that recursively generates, and adds to the previous iteration
-
-Vars: A,B,C,F,-,+ etc
-One of the Vars acts as the axiom.  The trunk of the tree.
-
-Example Rule
-A: "
-
-*/
 package main
 
 import (
 	"fmt"
 )
 
-type system struct {
-	Vars       []string
-	Initiator  string
-	Iterations int
+var rules = map[string]string{
+	"A": "CASH_",
+	"B": "BACK_",
+	"C": "BibbleCob_",
 }
 
-//type ruleset struct {
-//
-//}
-//func makeRulesets() *Ruleset {
-//
-//}
+type system struct {
+	vars       []string
+	constants  string
+	axiom      string //the start, must be one of the keys in the rules
+	iterations int
+}
 
 func (s system) run(r map[string]string) {
-	for _, v := range s.Vars {
-		fmt.Println("a variable is ", v)
-		fmt.Println("and the value of ", r["A"])
+	fmt.Println("vars", s.vars)
+	fmt.Println("constants", s.constants)
+	fmt.Println("axiom", s.axiom)
+	fmt.Println("iterations", s.iterations)
+	teststring := s.axiom
+	substring := ""
+	for n := 1; n <= s.iterations; n++ {
+		for _, r := range teststring {
+			substring += rules[string(r)]
+		}
+		teststring += substring
 	}
-	output := s.Initiator
-
-	for i := 1; i < s.Iterations; i++ {
-		//		output = output +
-
-		fmt.Println(output)
-	}
+	fmt.Println("teststring is: ", teststring)
 }
 
 func main() {
 
-	systemliteral := system{
-		Vars:       []string{"A", "B"},
-		Initiator:  "A",
-		Iterations: 3,
+	sysrun := system{
+		vars:       []string{"A", "B"},
+		axiom:      "A",
+		iterations: 5,
 	}
-
-	fmt.Println(systemliteral)
-	constants := "none"
-	fmt.Println("constants are", constants)
-	initiator := systemliteral.Vars[0]
-	ruleset := map[string]string{
-		"A": "AB",
-		"B": "BA",
-	}
-	fmt.Println(initiator, "is the initiator")
-	fmt.Println(ruleset)
-
-	systemliteral.run(ruleset)
+	sysrun.run(rules)
 }
