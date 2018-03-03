@@ -5,6 +5,9 @@ cli usage
 will add a string to a file of your choosing
 I use it to add thoughts to various journals I keep.
 addto the/file/path the string you want to add to the file.
+TODO: add cobra commands for different props
+create a .logto in home with list of files logged to
+
 */
 import (
 	"os"
