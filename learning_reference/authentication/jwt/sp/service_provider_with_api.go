@@ -10,7 +10,7 @@ test by
 package main
 
 import (
-	//	"crypto/rsa"
+	"crypto/rsa"
 	"fmt"
 	"github.com/codegangsta/negroni"
 	jwt "github.com/dgrijalva/jwt-go"
@@ -30,7 +30,7 @@ var (
 )
 
 func init() {
-	verifyBytes, err = ioutil.ReadFile(pubKeyPath)
+	verifyBytes, err := ioutil.ReadFile(pubKeyPath)
 	if err != nil {
 		fmt.Println("verifyBytes failure reading public key: ", err)
 	}
@@ -40,7 +40,7 @@ func init() {
 	}
 }
 func AuthMiddleware(w http.ResponseWriter, r *http.Request, next http.HandlerFunc) {
-	token, err := .ParseFromRequest(r, func(token *jwt.Token) (interface{}, error) {
+	token, err := jwt.ParseFromRequest(r, func(token *jwt.Token) (interface{}, error) {
 		return publicKey, nil
 	})
 	if err == nil && token.Valid {
