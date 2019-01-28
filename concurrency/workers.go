@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math/rand"
 	"sync"
 	"time"
 )
@@ -13,13 +14,15 @@ func worker(tasksCh <-chan int, wg *sync.WaitGroup) {
 		if !ok {
 			return
 		}
-		d := time.Duration(task) * time.Millisecond
-		time.Sleep(d)
+		r := rand.New(rand.NewSource(99))
+		rantime := time.Duration(r.Intn(2)) * time.Second
+		time.Sleep(rantime)
 		fmt.Println("processing task", task)
 	}
 }
 
 func pool(wg *sync.WaitGroup, workers, tasks int) {
+
 	tasksCh := make(chan int)
 
 	for i := 0; i < workers; i++ {
