@@ -1,12 +1,14 @@
 package main
 
+//TODO: add in something  from stdin so it can be used somehow
+
 import (
 	"gopkg.in/cheggaaa/pb.v2"
 	"time"
 )
 
 func main() {
-	simple()
+	/simple()
 	fromPreset()
 	customTemplate(`Custom template: {{counters . }}`)
 	customTemplate(`{{ red "With colors:" }} {{bar . | green}} {{speed . | blue }}`)
@@ -26,8 +28,6 @@ func simple() {
 
 func fromPreset() {
 	count := 1000
-	//bar := pb.Default.Start(total)
-	//bar := pb.Simple.Start(total)
 	bar := pb.Full.Start(count)
 	defer bar.Finish()
 	bar.Set("prefix", "fromPreset(): ")
