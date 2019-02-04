@@ -10,6 +10,9 @@ type Workout struct {
 	Description string   `json:"description"`
 	Musclegroup []string `json:"musclegroup"`
 }
+type jsonresp struct {
+	w http.ResponseWriter
+}
 
 func main() {
 	http.HandleFunc("/", viewHandler)
@@ -25,14 +28,20 @@ func viewHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	resp, _ := json.Marshal(m)
-	w.WriteHeader(200)
-	w.Header().Set("Content-Type", "application/json")
 
 	if origin := r.Header.Get("Origin"); origin != "" {
 		w.Header().Set("Access-Control-Allow-Origin", origin)
 	}
+	setAllHeaders(w)
+	w.Write(resp)
+}
+
+func setAllHeaders(w http.ResponseWriter) {
+
+	w.WriteHeader(200)
+	w.Header().Set("Content-Type", "application/json")
 	w.Header().Set("Access-Control-Allow-Methods", "POST, GET, OPTIONS, PUT, DELETE")
 	w.Header().Set("Access-Control-Allow-Headers", "Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token")
 	w.Header().Set("Access-Control-Allow-Credentials", "true")
-	w.Write(resp)
+
 }
