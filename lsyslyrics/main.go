@@ -21,10 +21,6 @@ type system struct {
 }
 
 func (s system) run(r map[string]string) {
-	// fmt.Println("vars", s.vars)
-	// fmt.Println("constants", s.constants)
-	// fmt.Println("axiom", s.axiom)
-	// fmt.Println("iterations", s.iterations)
 	teststring := s.axiom
 	substring := ""
 	for n := 1; n <= s.iterations; n++ {
