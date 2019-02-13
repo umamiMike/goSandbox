@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"time"
+	"github.com/umamiMike/mwutils"
 )
 
 type Node struct {
@@ -26,7 +26,7 @@ type Stack struct {
 
 // Push adds a node to the stack.
 func (s *Stack) Push(n *Node) {
-	printWait("pushing node to stack")
+	mwutils.PrintWait("pushing node to stack")
 	s.nodes = append(s.nodes[:s.count], n)
 	s.count++
 }
@@ -34,11 +34,11 @@ func (s *Stack) Push(n *Node) {
 // Pop removes and returns a node from the stack in last to first order.
 func (s *Stack) Pop() *Node {
 	if s.count == 0 {
-		printWait("the stack is empty")
+		mwutils.PrintWait("the stack is empty", 5)
 		return nil
 	}
 	s.count--
-	printWait("popped from stack")
+	mwutils.PrintWait("popped from stack")
 	return s.nodes[s.count]
 }
 
@@ -88,22 +88,18 @@ func (q *Queue) Pop() *Node {
 func main() {
 	s := NewStack()
 	s.Push(&Node{"snorgs"})
-	printWait("pushing &Node{1}")
+	mwutils.PrintWait("pushing &Node{1}", .2)
 	s.Push(&Node{2})
 	s.Push(&Node{3})
 	fmt.Printf("s.nodes = %v\n", s.nodes)
 	fmt.Println(s.Pop(), s.Pop(), s.Pop())
 
-	printWait("popped 3 elements from stack s")
+	mwutils.PrintWait("popped 3 elements from stack")
 
 	q := NewQueue(1)
 	q.Push(&Node{4})
 	q.Push(&Node{5})
 	q.Push(&Node{6})
-	printWait("popped 3 more  elements from stack stack q")
+	mwutils.PrintWait("popped 3 more  elements from stack stack q")
 	fmt.Println(q.Pop(), q.Pop(), q.Pop())
-}
-func printWait(s string) {
-	fmt.Println(s)
-	time.Sleep(1 * time.Second)
 }
