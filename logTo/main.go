@@ -24,8 +24,11 @@ import (
 )
 
 const outputTemplate = `
-{{ .Prefix  }} {{.Time }} 
+{{ .Prefix  }} {{.Time }}
 {{.Output }}`
+
+var infile = os.Args[1]
+var data = os.Args[2:]
 
 func check(e error) {
 	if e != nil {
@@ -33,12 +36,9 @@ func check(e error) {
 	}
 }
 func main() {
-	fmt.Println(os.Args)
-	infile := os.Args[1]
-	if len(os.Args[2]) == 0 { //no message sent, only the file...nothing to write
+	if len(data) == 0 { //no message sent, only the file...nothing to write
 		os.Exit(3)
 	}
-	data := os.Args[2:] //everything after the second arg becomes data
 	collapsedData := (strings.Join(data, " "))
 	f, err := os.OpenFile(infile, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0600)
 	if err != nil {
@@ -49,6 +49,7 @@ func main() {
 	defer f.Close()
 }
 func write(f *os.File, pre string, data string) {
+
 	output := struct {
 		Prefix string
 		Time   string
