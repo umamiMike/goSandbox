@@ -16,7 +16,6 @@ TODO: make time part prettier format
 
 */
 import (
-	"fmt"
 	"os"
 	"strings"
 	"text/template"

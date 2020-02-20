@@ -1,4 +1,4 @@
-module github.com/umamimike/goSandbox/webview/m/v2
+module github.com/umamimike/goSandbox/webview/syncthing_webview/v2
 
 go 1.13
 
