@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+
 	"github.com/umamiMike/mwutils"
 )
 
@@ -84,8 +85,8 @@ func (q *Queue) Pop() *Node {
 	q.count--
 	return node
 }
+func stackDemo() {
 
-func main() {
 	s := NewStack()
 	s.Push(&Node{"snorgs"})
 	mwutils.PrintWait("pushing &Node{1}", .2)
@@ -96,10 +97,20 @@ func main() {
 
 	mwutils.PrintWait("popped 3 elements from stack")
 
+}
+
+func queueDemo() {
+
 	q := NewQueue(1)
 	q.Push(&Node{4})
 	q.Push(&Node{5})
 	q.Push(&Node{6})
 	mwutils.PrintWait("popped 3 more  elements from stack stack q")
 	fmt.Println(q.Pop(), q.Pop(), q.Pop())
+
+}
+
+func main() {
+	stackDemo()
+	queueDemo()
 }
