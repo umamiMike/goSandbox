@@ -4,6 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"net"
+	"os"
 )
 
 func main() {
@@ -13,8 +14,17 @@ func main() {
 		fmt.Printf("Some error %v", err)
 		return
 	}
-	fmt.Fprintf(conn, "Hi UDP Server, How are you doing?")
-	_, err = bufio.NewReader(conn).Read(p)
+
+	scanner := bufio.NewScanner(os.Stdin)
+
+	fmt.Print("input: ")
+	for scanner.Scan() {
+		text := scanner.Text()
+		fmt.Fprintf(conn, text)
+		fmt.Print("input: ")
+
+	}
+
 	if err == nil {
 		fmt.Printf("%s\n", p)
 	} else {
