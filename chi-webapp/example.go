@@ -4,24 +4,30 @@ import (
 	"net/http"
 	"path/filepath"
 
+	"github.com/davecgh/go-spew/spew"
 	"github.com/go-chi/chi"
 )
 
 func main() {
 	r := NewRouter()
-
 	http.ListenAndServe(":3333", r)
 }
 
 func NewRouter() http.Handler {
 	router := chi.NewRouter()
 	//router.Get("/{name}", HelloName)
-
 	// Set up static file serving
-	staticPath, _ := filepath.Abs("./client/build/")
-	fs := http.FileServer(http.Dir(staticPath))
-	router.Handle("/index.html", fs)
+	router.Get("/sup", func(w http.ResponseWriter, r *http.Request) {
+		w.Write([]byte("sup"))
+	})
+	router.Route("/site/", func(router chi.Router) {
+		staticPath, _ := filepath.Abs("client/build/")
 
+		spew.Dump(staticPath)
+		fs := http.FileServer(http.Dir(staticPath))
+		spew.Dump(fs)
+		router.Handle("/*", fs)
+	})
 	return router
 }
 
@@ -59,7 +65,8 @@ func NewRouter() http.Handler {
 //fs := http.StripPrefix(basePath+path, http.FileServer(root))
 
 //if path != "/" && path[len(path)-1] != '/' {
-//r.Get(path, http.RedirectHandler(path+"/", 301).ServeHTTP)
+//r.Get(path, http.RedirectHandler(path+"/", 301).ServeHTTP
+
 //path += "/"
 //fmt.Println(path)
 //}
