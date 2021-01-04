@@ -22,7 +22,7 @@ import (
 	"time"
 )
 
-const outputTemplate = `\n[{{.Time }}] - {{.Output }}`
+var outputTemplate = `\n[{{.Time }}] - {{.Output }}`
 
 var infile = os.Args[1]
 var data = os.Args[2:]
