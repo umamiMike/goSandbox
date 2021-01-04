@@ -2,17 +2,14 @@ package main
 
 import (
 	"crypto/x509"
-	"fmt"
-	"net/http"
-
-	"io/ioutil"
-
 	"encoding/base64"
 	"encoding/xml"
-
+	"fmt"
 	saml2 "github.com/russellhaering/gosaml2"
 	"github.com/russellhaering/gosaml2/types"
 	dsig "github.com/russellhaering/goxmldsig"
+	"io/ioutil"
+	"net/http"
 )
 
 func main() {

@@ -8,7 +8,3 @@ type Product struct {
 	Code string
 	Cost uint
 }
-
-func (p *Product) Get(db *gorm.DB) (interface{}, bool) {
-	return db.Where(&p).Get("Price")
-}

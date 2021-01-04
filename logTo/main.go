@@ -22,9 +22,7 @@ import (
 	"time"
 )
 
-const outputTemplate = `
-{{ .Prefix  }} {{.Time }}
-{{.Output }}`
+const outputTemplate = `\n[{{.Time }}] - {{.Output }}`
 
 var infile = os.Args[1]
 var data = os.Args[2:]
@@ -43,18 +41,15 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	pre := "#"
-	write(f, pre, collapsedData)
+	write(f, collapsedData)
 	defer f.Close()
 }
-func write(f *os.File, pre string, data string) {
+func write(f *os.File, data string) {
 
 	output := struct {
-		Prefix string
 		Time   string
 		Output interface{}
 	}{
-		pre,
 		time.Now().Format("01-02-2006 15:04:05"),
 		data,
 	}

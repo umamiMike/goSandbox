@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
-import "reflect"
+import (
+	"fmt"
+	"reflect"
+)
 
 //type T struct{}
 
@@ -14,10 +16,8 @@ import "reflect"
 //fmt.Println(v)
 
 //}
-var fp = fmt.Println
 
 func main() {
-
 	methodExpressionPlay2()
 }
 
@@ -42,15 +42,21 @@ var f Foo
 
 func methodExpressionPlay2() {
 
+	//bar is a function
+	// which runs the passed in function with an argument of a
+	//type.a function
 	bar := func(m func(f Foo)) {
 		m(f)
 	}
+
 	bar(Foo.A)
 	bar(Foo.B)
 	bar(Foo.C)
 }
 
-//Here the method receiver is explicit. You only pass the method name (with the type it belongs to) to bar(), and when calling it, you have to pass the actual receiver: m(f).
+//Here the method receiver is explicit. You only pass the method name (with the
+//type it belongs to) to bar(), and when calling it, you have to pass the
+//actual receiver: m(f).
 
 //Output as expected (try it on the Go Playground):
 
@@ -74,12 +80,16 @@ func methodExpressionPlay() {
 
 }
 
-//Note that here the method receiver is implicit, it is saved with the function value passed to bar(), and so it is called without explicitly specifying it: m().
+//Note that here the method receiver is implicit, it is saved with the function
+//value passed to bar(), and so it is called without explicitly specifying it:
+//m().
 
-//Output is the same (try it on the Go Playground).
-//(For completeness: reflection)
+//Output is the same (try it on the Go Playground).  (For completeness:
+//reflection)
 
-//Inferior to previous solutions (both in performance and in "safeness"), but you could pass the name of the method as a string value, and then use the reflect package to call the method by that name. It could look like this:
+//Inferior to previous solutions (both in performance and in "safeness"), but
+//you could pass the name of the method as a string value, and then use the
+//reflect package to call the method by that name. It could look like this:
 func methoExpressionPlayReflect() {
 	var f Foo
 	bar := func(name string) {
