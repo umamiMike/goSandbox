@@ -26,13 +26,13 @@ func main() {
 	urls := []string{"https://google.com", "https://yahoo.com", "https://bing.com", "https://duckduckgo.com"}
 	durCh := make(chan result) //duration channel of type result
 	var wg sync.WaitGroup      //create waitgroup
-	wg.Add(len(urls))          //adds int which is the number of goroutines
+	wg.Add(len(urls))          //adds int which is the number of goroutines derived from the number of urls
 	for _, url := range urls {
 		_ = "breakpoint"
 		ch := make(chan result)
 		go getter(url, ch)
 		go func() {
-			defer wg.Done() //once the func is complutely done, it communicates that it is done to the waitgroup
+			defer wg.Done() //once the func is completely done, it communicates that it is done to the waitgroup
 			t := <-ch
 			durCh <- t
 		}()

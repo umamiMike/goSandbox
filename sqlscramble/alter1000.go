@@ -3,11 +3,10 @@ package main
 import (
 	"database/sql"
 	"fmt"
+
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/icrowley/fake"
 )
-
-
 
 func main() {
 
@@ -15,11 +14,6 @@ func main() {
 	if err != nil {
 		checkErr(err)
 	}
-
-	//rows, err := db.Query("select count(*) from Patients")
-	//checkErr(err)
-	//fmt.Printf(string(rows))
-
 	for i := 0; i < 1000; i++ {
 
 		fname := fake.FirstName()
