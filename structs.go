@@ -37,6 +37,7 @@ it is not idiomatic to use this or self
 func (p Person) fullName() string {
 	return p.First + " " + p.Last
 }
+
 func lb() {
 	fmt.Println("------------------------------------------")
 }

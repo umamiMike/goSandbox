@@ -1,4 +1,4 @@
-package main
+package ep0
 
 import (
 	"fmt"
@@ -8,7 +8,8 @@ import (
 func main() {
 	// Creating UUID Version 4
 	u1 := uuid.NewV4()
-	fmt.Printf("UUIDv4: %d\n", u1)
+
+	fmt.Printf("Generated a new uuid using function NewV4: %s\n\n", u1)
 
 	// Parsing UUID from string input
 	u2, err := uuid.FromString("6ba7b810-9dad-11d1-80b4-00c04fd430c8")
@@ -17,9 +18,4 @@ func main() {
 	}
 	fmt.Printf("Successfully parsed: %s", u2)
 
-	//	u3 := uuid.NewV5()
-	//	fmt.Printf("UUIDv5: %s\n", u3)
-
-	// mysql likes binary(16) encodeing so probably need to do something like
-	//func (u UUID) MarshalBinary() (data []byte, err error)
 }
