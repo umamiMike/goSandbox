@@ -14,7 +14,7 @@ func echoHandler(ws *websocket.Conn) {
 
 func main() {
 	http.Handle("/echo", websocket.Handler(echoHandler))
-	http.Handle("/", http.FileServer(http.Dir("/home/mike/dev")))
+	http.Handle("/", http.FileServer(http.Dir("/home/mike/dev/wilding/goSandbox/websocket/simple/web client")))
 	err := http.ListenAndServe(":5060", nil)
 	fmt.Println("Serving on Port 5060")
 	if err != nil {

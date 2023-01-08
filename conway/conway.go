@@ -104,11 +104,10 @@ func (l *Life) String() string {
 }
 
 func main() {
-	l := NewLife(100,200)
+	l := NewLife(100, 200)
 	for i := 0; i < 300; i++ {
 		l.Step()
 		fmt.Print("\x0c", l) // Clear screen and print field.
 		time.Sleep(time.Second / 30)
 	}
 }
-
